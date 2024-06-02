@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/xcodeapi
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+properties:
+  nbpCurrenciesTableAURI: https://api.nbp.pl/api/exchangerates/tables/A?format=json
+
+
+
